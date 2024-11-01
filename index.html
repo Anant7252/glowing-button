@@ -24,8 +24,26 @@
             Neon button
         </a>
         <a href="https://www.profitablecpmrate.com/ytybqsy94y?key=e06da4a06966c60a8fcdb0f57e603137" target="_blank">
-    Check out this ad!
-</a>
+    click here for reward
+        </a>
+        <script>
+        const links = [
+            "https://www.profitablecpmrate.com/ezvki8e9v?key=fa54bbd7ed555bbe84f2d528e9237d12",
+            "https://www.profitablecpmrate.com/ytybqsy94y?key=e06da4a06966c60a8fcdb0f57e603137"
+        ];
+        let currentLinkIndex = 0;
+
+        // Function to automatically click the link
+        function autoClick() {
+            const link = links[currentLinkIndex];
+            window.open(link, '_blank'); // Open the link in a new tab
+
+            // Update the index for the next link
+            currentLinkIndex = (currentLinkIndex + 1) % links.length;
+        }
+
+        // Set interval to click the link every 5 seconds (5000 milliseconds)
+        setInterval(autoClick, 5000);
 
     </body>
 </html>
